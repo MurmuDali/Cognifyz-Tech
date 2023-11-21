@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+      <h1>Image Gallery</h1>
+
+      <div class="gallery">
+        <img class="thumbnail" src="./Image/Spring.jpg" alt="Thumbnail 1" 
+          id="image"  onclick="showImage('./Image/Spring.jpg')">
+        <img class="thumbnail" src="./Image/Journal.jpg" alt="Thumbnail 2" 
+          id="image"  onclick="showImage('./Image/Journal.jpg')">
+        <img class="thumbnail" src="./Image/Risk.jpg" alt="Thumbnail 3" 
+          id="image"  onclick="showImage('./Image/Risk.jpg')">
+      </div>
+
+    <!-- Enlarged image container -->
+        <div class="enlarged-image-container" onclick="hideImage()">
+          <img class="enlarged-image" id="enlargedImage" alt="Enlarged Image">
+        </div>
+    </div>
+
+<!-- Slide show container -->
+    <div>
+        <div class="slideshow">
+            <div class="mySlides">
+              <img src="./Image/Spring.jpg" alt="Slide 1" id="slide">
+            </div>
+          
+            <div class="mySlides">
+              <img src="./Image/Risk.jpg" alt="Slide 2" id="slide">
+            </div>
+          
+            <div class="mySlides">
+              <img src="./Image/Journal.jpg" alt="Slide 3" id="slide">
+            </div>
+           <!-- Navigation dots -->
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
