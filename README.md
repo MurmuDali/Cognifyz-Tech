@@ -2,22 +2,24 @@
 
 Task is:
 
-Responsive Design:
-Convert a basic webpage into a
+⏩ Responsive Design:
+◼ Convert a basic webpage into a
 responsive design that adapts to
 different screen sizes using CSS media
 queries.
-Create a mobile-friendly navigation
+
+◼ Create a mobile-friendly navigation
 menu that collapses into a hamburger
 menu on smaller screens using HTML
 and CSS.
 
 
-Image Manipulation:
-Use CSS to create a basic image gallery
+⏩ Image Manipulation:
+◼ Use CSS to create a basic image gallery
 with thumbnail images that enlarge
 when clicked.
-Implement a simple image slideshow
+
+◼ Implement a simple image slideshow
 that automatically transitions between
 images using HTML and CSS.
 
